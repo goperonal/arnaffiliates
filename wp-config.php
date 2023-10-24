@@ -1,4 +1,8 @@
 <?php
+define( 'WP_CACHE', true ); // Added by WP Rocket
+
+
+
 /**
  * The base configuration for WordPress
  *
@@ -23,7 +27,7 @@
 define( 'DB_NAME', 'arnaffiliates' );
 
 /** Database username */
-define( 'DB_USER', 'arnaffiliates' );
+define( 'DB_USER', 'ronalgope' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'gop3ronal' );
